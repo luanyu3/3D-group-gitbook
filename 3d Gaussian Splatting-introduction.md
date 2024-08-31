@@ -60,7 +60,7 @@ Gaussian Splatting的输入是一组静态场景的图像，以及由SfM校准�
 ![球谐](https://github.com/user-attachments/assets/e6cc415c-2d12-46f8-84ae-85e3231132e5)
 ![球](https://github.com/user-attachments/assets/1b7e8d51-6a9a-4c76-ad28-086aef57df05)
 
-过程较为复杂，讲解详见b站《中恩实验室》视频：https://www.bilibili.com/video/BV1aw411E7bA?vd_source=25c0dee0c9a65590c654aa7f42c9d718
+球谐函数理解过程较为复杂，讲解详见b站《中恩实验室》视频：https://www.bilibili.com/video/BV1aw411E7bA?vd_source=25c0dee0c9a65590c654aa7f42c9d718
 ### splatting过程：
 1.形象解释：在这一步中，三维高斯椭球体被投影到二维图像空间椭圆形，以进行渲染。
 Splatting 的中文翻译为：**抛雪球法**。很形象，我们可以想象一下，把一个雪球（高斯球）扔到一个玻璃盘子上，雪球散开以后，在撞击中心的雪量（对图像的贡献）最大，而随着离撞击中心距离的增加，雪量（贡献） 减少。脑补一下盘子上的图像，其实我们可以自然而然的想到二维高斯分布的密度函数。
